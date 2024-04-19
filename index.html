@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coca-Cola - Refresh the World</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    /* Navigation Bar */
+    header {
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav li {
+      margin-right: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #000;
+    }
+    nav a:hover {
+      color: #c60000;
+    }
+    /* Hero Section */
+    .hero {
+      background-image: url(https://boingboing.net/2022/12/12/there-are-no-red-pixels-in-this-image-of-a-coca-cola-can.html);
+      background-size: cover;
+      background-position: center;
+      padding: 100px 0;
+      color: #000;  /* Changed text color to black for better contrast */
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 4em;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      line-height: 1.5;
+      color: #333; /* Changed text color to a darker shade for better contrast */
+    }
+    /* Animation */
+    .hero h1 {
+      animation: shine 2s infinite ease-in-out;
+    }
+    @keyframes shine {
+      0% {
+        text-shadow: 0 0 5px #fff;
+      }
+      100% {
+        text-shadow: 0 0 20px #c60000;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Coca-Cola</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero">
+    <h1>Coca-Cola <br> Refresh the World</h1>
+    <p>Coca-Cola is the world's most popular beverage brand, offering a refreshing taste experience for people of all ages. Enjoy the classic Coca-Cola, explore a variety of flavors, and discover the happiness that comes with every sip.</p>
+  </section>
+  <script>
+    // Add any JavaScript functionality here (optional)
+  </script>
+</body>
+</html>
